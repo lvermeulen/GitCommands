@@ -17,6 +17,7 @@
     <RepositoryUrl>https://github.com/lvermeulen/GitCommands</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>git commands status add commit push</PackageTags>
+    <PackageIconUrl>https://i.imgur.com/WC1Fzeb.png?1</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
