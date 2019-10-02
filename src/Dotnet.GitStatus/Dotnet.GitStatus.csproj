@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>gitstatus</ToolCommandName>
-    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageOutputPath>../../artifacts</PackageOutputPath>
     <RootNamespace>GitStatus</RootNamespace>
     <AssemblyName>GitStatus</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -17,12 +17,6 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>git commands status</PackageTags>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="nupkg\**" />
-    <EmbeddedResource Remove="nupkg\**" />
-    <None Remove="nupkg\**" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\GitCommands\GitCommands.csproj" />
