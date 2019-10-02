@@ -8,6 +8,14 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <RootNamespace>GitStatus</RootNamespace>
     <AssemblyName>GitStatus</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Luk Vermeulen</Authors>
+    <Copyright>Copyright (c) 2019 by Luk Vermeulen. All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/lvermeulen/GitCommands</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lvermeulen/GitCommands</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>git commands status</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
