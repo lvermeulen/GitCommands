@@ -1,6 +1,6 @@
 ﻿using LibGit2Sharp;
 
-namespace GitCommands
+namespace GitCommand
 {
     public class StatusCommand
     {

@@ -6,20 +6,25 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>gitstatus</ToolCommandName>
     <PackageOutputPath>../../artifacts</PackageOutputPath>
-    <RootNamespace>GitStatus</RootNamespace>
-    <AssemblyName>GitStatus</AssemblyName>
+    <AssemblyName>GitCommands</AssemblyName>
+    <RootNamespace>GitCommands</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Luk Vermeulen</Authors>
+    <Product>GitCommands</Product>
     <Copyright>Copyright (c) 2019 by Luk Vermeulen. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/lvermeulen/GitCommands</PackageProjectUrl>
     <RepositoryUrl>https://github.com/lvermeulen/GitCommands</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>git commands status</PackageTags>
+    <PackageTags>git commands status add commit push</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GitCommands\GitCommands.csproj" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GitCommand\GitCommand.csproj" />
   </ItemGroup>
 
 </Project>

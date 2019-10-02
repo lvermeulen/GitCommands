@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitCommands.Tests", "test\GitCommands.Tests\GitCommands.Tests.csproj", "{EDDC79D3-4EE4-4AEA-A996-7D91BEA1591E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitCommands", "src\GitCommands\GitCommands.csproj", "{CF7900E6-7235-482E-B7FE-2494A673FBE1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.GitStatus", "src\Dotnet.GitStatus\Dotnet.GitStatus.csproj", "{F8F7B551-518E-4D3F-8184-BA91D711BE15}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4AEE248D-73B1-4504-864A-F022B3A3A4EE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A4790B1-10A8-4B0D-A293-FB7562A510AC}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
@@ -24,29 +16,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{B77A9451
 		build\test.ps1 = build\test.ps1
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.GitCommands", "src\Dotnet.GitCommands\Dotnet.GitCommands.csproj", "{F4CD5677-409A-4810-8B35-57B8BC79B858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitCommand", "src\GitCommand\GitCommand.csproj", "{203230C4-38EB-47A4-B5F2-60429B4E72C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EDDC79D3-4EE4-4AEA-A996-7D91BEA1591E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDDC79D3-4EE4-4AEA-A996-7D91BEA1591E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDDC79D3-4EE4-4AEA-A996-7D91BEA1591E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF7900E6-7235-482E-B7FE-2494A673FBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF7900E6-7235-482E-B7FE-2494A673FBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF7900E6-7235-482E-B7FE-2494A673FBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF7900E6-7235-482E-B7FE-2494A673FBE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8F7B551-518E-4D3F-8184-BA91D711BE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8F7B551-518E-4D3F-8184-BA91D711BE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8F7B551-518E-4D3F-8184-BA91D711BE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8F7B551-518E-4D3F-8184-BA91D711BE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CD5677-409A-4810-8B35-57B8BC79B858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CD5677-409A-4810-8B35-57B8BC79B858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CD5677-409A-4810-8B35-57B8BC79B858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CD5677-409A-4810-8B35-57B8BC79B858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203230C4-38EB-47A4-B5F2-60429B4E72C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203230C4-38EB-47A4-B5F2-60429B4E72C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203230C4-38EB-47A4-B5F2-60429B4E72C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203230C4-38EB-47A4-B5F2-60429B4E72C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EDDC79D3-4EE4-4AEA-A996-7D91BEA1591E} = {4AEE248D-73B1-4504-864A-F022B3A3A4EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10BA233D-FCE3-4558-BC06-AD58950F46E1}

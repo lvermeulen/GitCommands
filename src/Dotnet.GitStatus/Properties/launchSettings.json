@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Dotnet.GitStatus": {
-      "commandName": "Project",
-      "commandLineArgs": "c:\\tuirepo\\insurance.product"
-    }
-  }
-}
