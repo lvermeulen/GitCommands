@@ -17,7 +17,7 @@ namespace GitCommands.Subcommands
 
                 if (!Quiet)
                 {
-                    Console.WriteLine("All files added");
+                    Console.WriteLine("Added");
                 }
 
                 return 0;
