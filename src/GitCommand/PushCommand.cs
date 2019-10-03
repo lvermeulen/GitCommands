@@ -9,6 +9,11 @@ namespace GitCommand
         {
             using (var repo = new Repository(path))
             {
+                if (branchName == null)
+                {
+                    branchName = repo.Head.Reference.TargetIdentifier;
+                }
+
                 repo.Network.Push(repo.Branches[branchName], new PushOptions
                 {
                     CredentialsProvider = (url, usernameFromUrl, types) => new SecureUsernamePasswordCredentials()
