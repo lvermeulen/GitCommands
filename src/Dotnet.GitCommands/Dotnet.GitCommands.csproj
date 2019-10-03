@@ -18,6 +18,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>git commands status add commit push</PackageTags>
     <PackageIconUrl>https://i.imgur.com/WC1Fzeb.png?1</PackageIconUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
